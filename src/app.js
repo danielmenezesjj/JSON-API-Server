@@ -9,7 +9,7 @@ const produtos = [
 ]
 
 app.get('/', (req, res)=>{
-    res.status(200).json('Curso de node mongoDb');
+    res.status(200).json('JSON-API-SERVER');
 });
 
 app.get('/produtos', (req, res)=>{
